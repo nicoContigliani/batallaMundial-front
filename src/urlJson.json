@@ -1,0 +1,20 @@
+{
+  "method":[
+    {
+      "typeUrl":"login",
+      "methot":"post",
+      "url":"http:///localhost:3001/api/auth/auth/login"
+    },
+    {
+      "typeUrl":"loginAuth0",
+      "methot":"post",
+      "url":"http:///localhost:3001/api/auth/auth/login"
+    },
+    {
+      "typeUrl":"register",
+      "methot":"post",
+      "url":"http:///localhost:3001/api/auth/auth/register"
+    }
+    
+  ]
+}

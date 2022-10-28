@@ -1,0 +1,13 @@
+.navbar {
+    /* height: 20px; */
+    background-color: transparent !important;
+    background-size: cover;
+    display: flex;
+    /* background-color: transparent;  */
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,76 @@
+.perfil {
+    box-sizing: border-box;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute;
+    width: 505px;
+    height: 519px;
+    left: 400px;
+    top: 130px;
+
+    background: rgba(165, 159, 159, 0.78);
+    border: 1px solid #000000;
+    backdrop-filter: blur(2px);
+
+    border-radius: 28px;
+
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+
+    position: absolute;
+    width: 231px;
+    height: 226px;
+    /* left: 619px; */
+    top: 45px;
+
+    background: rgba(217, 217, 217, 0.43);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+.box {
+    position: absolute;
+    width: 412px;
+    height: 195px;
+    /* left: 534px; */
+    top: 293px;
+
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 1%;
+}
+
+body {
+    /* margin: auto; */
+}
+
+
+
+@media only screen and (max-width:768px) and (min-width:481px) {}
