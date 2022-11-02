@@ -1,0 +1,26 @@
+.input {
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    /* left: 591px; */
+    left: 44%;
+
+    top: 125px;
+
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 8px;
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+}
+
+.btns {
+    position: absolute;
+    width: 156px;
+    height: 47px;
+    left: 655px;
+    top: 891px;
+
+    background: rgba(217, 217, 217, 0.18);
+    border-radius: 22px;
+}

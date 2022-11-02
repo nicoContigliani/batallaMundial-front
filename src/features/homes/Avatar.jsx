@@ -1,4 +1,5 @@
 import React from 'react'
+import Avatar1 from '../../images/avatar1.png'
 
 const Avatar = (data) => {
     console.log("🚀 ~ file: Avatar.jsx ~ line 4 ~ Avatar ~ avatar", data)
@@ -7,7 +8,9 @@ const Avatar = (data) => {
 
 
     return (
-        <img className="mr-3" src={imagen.avatar} alt="" />
+        // <img className="img-circle" src={imagen.avatar} alt="" />
+        <img className="img-circle" src={Avatar1} alt="" />
+
     );
 }
 

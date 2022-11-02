@@ -63,9 +63,10 @@ const Home = () => {
                     Mi perfil
                 </h1>
                 <div className='todo'>
+                {/* <img src={data.avatar} className="img-circle" alt="avatar"/> */}
                     <div className="circle">
-                        {/* <Avatar data={data} /> */}
-                        <img className="mr-3" src={data.avatar} alt="" />
+                        <Avatar data={data} />
+                        {/* <img className="mr-3" src={data.avatar} alt="" /> */}
                     </div>
                     <div className="box">
                         <br />

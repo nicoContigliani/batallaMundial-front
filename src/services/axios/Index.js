@@ -6,6 +6,8 @@ import deletes from "./delete";
 
 //data y metodo
 const IndexAxios = async (data) => {
+  console.log("🚀 ~ file: Index.js ~ line 9 ~ IndexAxios ~ data", data)
+  
   switch (data.method) {
     case "get":
       const getDataAxios = await get(data);

@@ -1,0 +1,20 @@
+
+.cards{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-body{
+    align-items: center;
+    place-items: center;
+
+
+}
+
+.rounded {
+    width: 30%;
+    align-items: center;
+
+    
+}

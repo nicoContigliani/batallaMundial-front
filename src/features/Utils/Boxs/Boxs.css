@@ -1,7 +1,29 @@
-boxs {
+.boxs {
+    box-sizing: border-box;
+
+
     position: absolute;
-    width: 741px;
-    height: 536px;
-    left: 343px;
-    top: 328px;
+    width: 750px;
+    height: 688px;
+    /* left: 400px; */
+    left: auto;
+
+    top: 180px;
+
+    background: rgba(165, 159, 159, 0.78);
+    border: 1px solid #000000;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 28px;
+
+
+}
+
+.Card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    place-items: center;
+
 }
