@@ -10,4 +10,19 @@
     top: 0;
     font-size: 1.3rem;
     border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    
+}
+
+
+
+
+

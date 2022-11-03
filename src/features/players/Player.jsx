@@ -22,17 +22,18 @@ const Player = () => {
 
         e.preventDefault()
         console.log(data)
-         dispatch(getUserAsync(data))
+        dispatch(getUserAsync(data))
     }
 
     return (
-        <div>
+        <div className='player'>
+
             <form onSubmit={send}>
                 <input name="datas" type="text" className="input" id="exampleInputEmail1" aria-describedby="busqueda" placeholder="Ingrese Búsqueda"
                     onChange={handleInputChange} required />
             </form>
 
-            <Boxs />
+            <Boxs data="player" />
             <button type="submit" className="btns btn btn-primary" onClick={send} > Enviar</button>
 
         </div>

@@ -18,3 +18,28 @@
 
     
 }
+@media only screen and (max-width: 768px) {
+    .cards{
+        display: grid;
+        /* justify-content: center;
+        align-items: center; */
+        /* width: 40%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    
+    }
+    .card-body{
+        align-items: center;
+        place-items: center;
+    
+    }
+    
+    .rounded {
+        width: 20%;
+        align-items: center;
+    
+        
+    }
+}

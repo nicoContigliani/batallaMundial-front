@@ -10,7 +10,6 @@ import Avatar from './Avatar';
 const Home = () => {
     const navigate = useNavigate();
     const dataItemLocalStorage = readToken()
-    console.log("🚀 ~ file: Home.jsx ~ line 12 ~ Home ~ dataItemLocalStorage", dataItemLocalStorage)
     const [data, setData] = useState([{
         avatar: "https://drive.google.com/thumbnail?id=1fpl6FOG7Gi-X4oHH-dAm3b0UGDYJE9Jr",
         createdAt: "2022-10-27T17:43:14.935Z",
@@ -25,35 +24,15 @@ const Home = () => {
 
 
     useEffect(() => {
-
-        // if (
-
-        //     !(dataItemLocalStorage?.isAuthenticated)
-        // ) {
-        //      navigate('/auth')
-
-        // }
-
-
         setTimeout(() => {
-
             if (dataItemLocalStorage?.rest[0] == null || dataItemLocalStorage?.rest[0] == undefined) {
-                console.log("salio null")
                 window.location.reload(false);
-
             }
-
-
-
         }, 1000);
-
-
-
         setData(dataItemLocalStorage?.rest[0])
 
     }, [])
 
-    console.log("🚀 ~ file: Home.jsx ~ line 10 ~ Home ~ data", data)
 
 
     return (

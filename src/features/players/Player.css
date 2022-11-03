@@ -24,3 +24,40 @@
     background: rgba(217, 217, 217, 0.18);
     border-radius: 22px;
 }
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .player {
+        top: 5%;
+    }
+
+    .input {
+        margin-top: 3%;
+        position: flex;
+        width: 280px;
+        height: 42px;
+        /* left: 591px; */
+        left: 20%;
+
+        top: 130px;
+
+        background: rgba(217, 217, 217, 0.7);
+        border-radius: 8px;
+        /* display: grid;
+        justify-content: center;
+        align-items: center; */
+        flex: auto;
+
+    }
+
+    .btns {
+        position: fixed;
+        width: 156px;
+        height: 47px;
+        left: 35%;
+        top: 799px;
+
+        background: rgba(217, 217, 217, 0.18);
+        border-radius: 22px;
+    }
+}

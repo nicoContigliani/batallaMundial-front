@@ -1,8 +1,14 @@
 import React from 'react'
+import Box from '../Utils/Boxs/Boxs'
 
 const Halls = () => {
     return (
-        <div>Halls</div>
+        <div>
+
+
+            <Box />
+
+        </div>
     )
 }
 

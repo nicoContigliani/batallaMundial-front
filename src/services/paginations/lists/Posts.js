@@ -13,7 +13,6 @@ const Posts = ({ posts, loading }) => {
   return (
     < div className="center">
 
-      {/* <ul className='list-group mb-4'> */}
       <div className='d-flex flex-wrap'>
 
         {posts.map(post => (

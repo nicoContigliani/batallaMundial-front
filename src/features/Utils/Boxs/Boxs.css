@@ -27,3 +27,29 @@
     place-items: center;
 
 }
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .boxs {
+        margin-top: 2%;
+
+        box-sizing: border-box;
+    
+    
+        position: flex;
+
+    
+        background: rgba(165, 159, 159, 0.78);
+        border: 1px solid #000000;
+        backdrop-filter: blur(2px);
+        /* Note: backdrop-filter has minimal browser support */
+    
+        border-radius: 28px;
+        
+        /* display: flex; */
+        width: 100%;
+        height:120%;
+        justify-content: space-between;
+
+      
+    }
+}
